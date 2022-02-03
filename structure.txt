@@ -1,0 +1,56 @@
+*** INITIALISER LES JOUEURS *** 
+1. 
+morpion.rb
+    Le jeu ne se joue qu'à deux joueurs humains
+    Class = Player
+    attr_accessor = :name
+
+app.rb
+   1. Demander prenom player1 & player 2 => stocker
+
+    2. Tour de dé pour débuter
+
+    3. Définir les caractères de chaque joueur
+
+
+*** INITIALISER LE PLATEAU *** 
+  1 2 3
+A 
+B
+C
+
+*** LES BOUCLES ACTIONS DU JEU ***
+WHILE [conditions] on entre dans la boucle :
+
+    1. Demander à player1 de jouer 
+    2. Choisir une case (entrer C3 par exemple)
+    3. Valider la case (y /n) 
+    
+    Condition
+        si ...
+    4. Demander à player2 de jouer
+END
+
+*** INITIALISER LES CONDITIONS DE FIN ***
+
+If 
+1 Victoire 
+    - Si ligne comporte aucun caractère vie ET tous les autres caractères sont identiques
+    - idem pour colonne
+    - idem pour diagonale
+2 Match nul (toutes les cases sont remplies)
+    !victoire "Si pas de victoire"
+
+*** LES OBJETS ***
+Game
+Player
+Board
+Boardcase
+Application
+Show
+
+
+
+
+
+
